@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- JavaScript can "display" data in different ways:
+
+Writing into an HTML element, using innerHTML.
+Writing into the HTML output using document.write().
+Writing into an alert box, using window.alert().
+Writing into the browser console, using console.log().-->
+
+<!-- using inner html
+ To access an HTML element, JavaScript can use the document.getElementById(id) method.
+
+The id attribute defines the HTML element. The innerHTML property defines the HTML content:-->
+
+</head>
+<body>
+    <h1> first web page</h1>
+    <p> my first paragraph</p>
+    <p id="demo"></p> 
+    <script>
+        document.getElementById("demo").innerHTML=5+6;
+    </script>
+
+    <!-- Using document.write() -->
+     <h3> using document.write </h3>
+     <p> my second paragraph</p>
+     <script>
+        document.write(5+6); 
+     </script>
+
+     <!-- using with button-->
+      <h3> using button for the statement </h3>
+      <p> third para with the button</p>
+      <button type="button" onclick="document.write(5+6)">Try it </button> <!--The document.write() method should only be used for testing.-->
+    
+    
+      <!-- using window alert-->
+       <h3> In window alert we can use an alert box to display the data </h3>
+       <p> fourth para with the window alert </p>
+       <script>
+        window.alert(5+6);
+        
+       </script>
+       <!-- here window key word is optional we can also remove it -->
+        <p> result without the window keyword </p>
+        <script>
+            alert(5+6);
+        </script>
+
+        <!-- Using console.log 
+         For debugging purposes, you can call the console.log() method in the browser to display data.-->
+
+         <h3> using console.log </h3>
+         <script>
+            console.log(5+6);
+         </script>
+
+         <!-- JavaScript Print
+          JavaScript does not have any print object or print methods.
+
+You cannot access output devices from JavaScript.
+
+The only exception is that you can call the window.
+print() method in the browser to print the content of the current window.-->
+
+         <h3> using window.print()</h3>
+         <p> this will be use for printing the page </p>
+         <button onclick="window.print()">print this page </button>
+
+</body>
+</html>

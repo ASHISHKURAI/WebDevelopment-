@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Break</title>
+</head>
+<body>
+    <!--  JavaScript Break -->
+      <h2> Using Break in JavaScript </h2>
+      <p id="demo"></p>
+      <script>
+        let text ="";
+        for (let i=0;i<10;i++){
+            if (i==3){
+                break;
+            }
+            text += " The number is " + i + "<br>"
+        }
+        document.getElementById("demo").innerHtml=text;
+      </script>
+
+      <!-- Continue Statement -->
+       <h2> Using Continue statement in JavaScript</h2>
+       <p id="demo1"></p>
+       <script>
+        let text1 ="";
+        for (let j=0;j<8;j++){
+            if (j==4){
+                continue;
+            }
+            text1 += "the numbers are " + j + "<br>"
+        }
+        document.getElementById("demo1").innerHTML=text1;
+       </script>
+    
+</body>
+</html>

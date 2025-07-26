@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DataTypes </title>
+    <style>
+
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Java Scripts Data Types -->
+     <h2> JavaScript has 8 Datatypes </h2>
+     <p> String,
+        Number,
+        Bigint,
+        Boolean,
+        Undefined,
+        Null,
+        Symbol,
+        Object <br> Adding numbers and strings together  </p>
+
+        <p id="demo"> </p>
+        <script> 
+            let x=16+"hello";
+            document.getElementById("demo").innerHTML=x;
+        </script>
+
+        <!-- Java Scripts Strings -->
+
+        <p id="demo1"> </p>  
+        <script> 
+            let y= "ashish" +16+4;
+            document.getElementById("demo1").innerHTML =y;
+        </script>
+
+        <!-- Java Scripts Numbers -->
+
+        <p id="demo2"> </p>
+        <script>
+            let x1=34.00;
+            let x2=34;
+            let x3=3.14;
+
+            document.getElementById("demo2").innerHTML=x1+"<br>"+x2+"<br>" +x3 
+        </script>
+
+        <!-- Java Scripts Exponential Notation -->
+
+        <p id="demo3"> </p>
+        <script> 
+        let z1 = 123e5;
+        let z2 = 123e-5;
+
+        document.getElementById("demo3").innerHTML = z1 +"<br>" + z2;
+
+        </script>
+
+        <!-- Java Scripts Bigint-->
+         <h2> Using JAVA SCRIPTS Bigint</h2>
+         <p id="demo4"> </p>
+         <script> 
+            let a1 =BigInt ("123456789012345678901234567890");
+            document.getElementById("demo4").innerHTML=a1;
+         </script>
+
+         <!-- Java Script Boolean-->
+          <h2> Using JavaScript Boolean </h2>
+          <p id="demo5"> </p>
+          <script>
+            let c1 = 4;
+            let c2=6;
+            let c3 =4;
+            document.getElementById("demo5").innerHTML = (c1==c2) +"<br>" + (c1==c3);
+            
+          </script>
+
+          <!-- JavaScripts Arrays -->
+           <h2> Using Arrays in JavaScripts </h2>
+           <p id="demo6"></p>
+           <script> 
+            const cars =["Saab ","Volvo","BMW"];
+            document.getElementById("demo6").innerHTML = cars[0];
+           </script>
+
+           <!-- JavaScripts Objects -->
+            <h2> Using Objects in JavaScript</h2>
+            <p id="demo7"> </p>
+            <script>
+
+                const person ={
+                    firstName : "Ashi",
+                    lastName : "rai",
+                    age : 22,
+
+                };
+
+                document.getElementById ("demo7").innerHTML = person.firstName + " is " + person.age+" years old  ";
+            </script>
+
+            <!-- typeof operator-->
+             <h2> using typeof operator </h2>
+             <p id="demo8"></p>
+             <script>
+                document.getElementById("demo8").innerHTML=typeof "" +"<br>" +typeof "jhon" +"<br>" + typeof "ash" +"<br>" +typeof 314 +"<br>"
+                + typeof 3.14 +"<br>" +typeof (3) +"<br>" +typeof (3+4);
+             </script>
+
+    
+</body>
+</html>

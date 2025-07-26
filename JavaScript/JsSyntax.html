@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Statements </title>
+
+    <style>
+
+        h2{
+            color: red;
+            text-align: center;
+        }
+
+        p{
+            color:green;
+            text-align: center;
+        }
+
+        h3{
+            color:blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2> javascript variables </h2>
+    <p> In this example, x is defined as a variable.
+        Then, x is assigned the value of 6</p>
+
+        <!-- n a programming language, variables are used to store data values.
+
+JavaScript uses the keywords var, let and const to declare variables.
+
+An equal sign is used to assign values to variables.-->
+
+        <p id="demo"></p>
+        <script>
+            let x;
+            x=6;
+            document.getElementById("demo").innerHTML =x;
+        </script>
+
+        <!-- JAVASCRIPT OPERATOR -->
+         <h3> JavaScript Operator </h3>
+         <p> JavaScript uses arithmetic operators ( + - * / ) to compute values:</p>
+         <p id="demo1"></p>
+         <script>
+            document.getElementById("demo1").innerHTML=(5+6)*10;
+         </script>
+
+         <!-- Assignment Operator-->
+
+         <h3>Assignment Operator </h3>
+         <p> In JavaScript the = operator is used to assign values to variables</p>
+         <p id="demo2"> </p>
+         <script>
+            let z,y;
+            z=5;
+            y=6;
+            document.getElementById("demo2").innerHTML= z+y;
+         </script>
+
+         <!-- JavaScript Expression -->
+
+         <h3> JavaScript Expression </h3>
+         <p> Expressions compute to values </p>
+         <p id="demo3"> </p>
+         <script>
+            var r;
+            r=5;
+            document.getElementById("demo3").innerHTML=r*10;
+         </script>
+
+         <!-- JavaScript Keywords-->
+          <h3> JavaScript Keywords</h3>
+          <p> avaScript keywords are used to identify actions to be performed.
+
+            The let keyword tells the browser to create variables</p>
+
+            <p id="demo4"> </p>
+            <script>
+                var A,B;
+                A=5+6;
+                B=A+10
+                document.getElementById("demo4").innerHTML=B;
+            </script>
+
+            <!-- Java Script Comments -->
+             <h3> JavaScript comments are not excuted </h3>
+             <p id="demo5"></p>
+
+             <script>
+                let c=5; // this will be excuted 
+                /* this will be not excuted */
+                document.getElementById("demo5").innerHTML=c;
+
+            
+    
+            
+             </script>
+
+        
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JavaScript Operator </title>
+    <style> 
+        body{
+            text-align: center;
+        }
+        h1{
+            color: red;
+        }
+        p{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1> Assignment Operator </h1>
+    <P> The Assignment Operator (=) assigns a value to a variable </P>
+    <P id="demo"> </P>
+    <script>
+        let x=5;
+        let y=4;
+        let z=x+y;
+
+        document.getElementById("demo").innerHTML=z;
+    </script>
+
+    <p> he Addition Assignment Operator (+=) adds a value to a variable </p>
+    <p id="demo1"></p>
+    <script>
+        let a=10;
+        a+=5;
+        document.getElementById("demo1").innerHTML=a;
+    </script>
+
+    <!-- Adding strings and numbers -->
+
+    <p> here we add strings and numbers both </p>
+    <p id="demo2"></p>
+    <script>
+        let b=5+5;
+        let c ="5" +5;
+        let d = "hello" +5;
+
+        document.getElementById("demo2").innerHTML =b +"<br>" +c + "<br>" +d
+    </script>
+    
+</body>
+</html>

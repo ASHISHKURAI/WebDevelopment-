@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Let </title>
+    <style> 
+        body{
+            text-align: center;
+        }
+
+        h2{
+            color:red;
+        }
+        p{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- JavaScript Let -->
+     <h2> using java script Let </h2>
+     <p> Redeclaring a variable using the var keyword can impose problems.<br>
+
+        Redeclaring a variable inside a block will also redeclare the variable outside the block. </p>
+     <p id="demo"> </p>
+
+     <!-- Using Var -->
+
+     <script>
+
+        var x=10;
+        // here x is 10
+
+        {
+            var x=2;
+            // here x is 2 
+        }
+
+        // here x is 2 
+
+        document.getElementById("demo").innerHTML =x
+     </script>
+
+     <!-- Using Let -->
+
+     <p> Redeclaring a Variable Using let </p>
+     <p id="demo2"> </p>
+     <script>
+
+        let y=10;
+        // here x is 10
+
+        {
+            let y=2;
+            // here x is 2 
+        }
+
+        // here x is 10
+
+        document.getElementById("demo2").innerHTML=y;
+     </script>
+
+     <h2> Redeclaring Var </h2>
+     <p> redeclaring java script with variable var </p>
+     <p id="demo3"> </p>
+     <script> 
+        var z=2;
+        // here value of z is 2
+
+        var z=3;
+        // here value of z is 3
+        
+        document.getElementById("demo3").innerHTML=z;
+     </script>
+
+    
+</body>
+</html>

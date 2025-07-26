@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript if else execution </title>
+</head>
+<body>
+
+    <!-- JavaScript if else statements  -->
+
+    <h2> if statement in javascript  </h2>
+    <p id="demo"></p>
+    <script>
+        if (new Date().getHours()<18){
+            document.getElementById("demo").innerHTML="Good day";
+        }
+    </script>
+
+    <h2> else statement in JavaScript </h2>
+    <p id="demo1"></p>
+    <script>
+        const hour=new Date().getHours();
+        let greeting;
+        if (hour<18) {
+            greeting ="good day";
+        }else{
+            greeting ="good evening";
+        }
+
+        document.getElementById("demo1").innerHTML=greeting;
+
+    </script>
+
+    <!-- else if statement -->
+     <h2> using else if statements </h2>
+     <p id="demo3"></p>
+     <script>
+        const time= new date().gethours();
+        let greetingss;
+        if(timeing<10){
+            greetingss ="good morn";
+        }else if(time<20){
+            greetingss="good dayssss";
+        }else{
+            greetingss ="good eveningsss";
+        }
+     </script>
+    
+</body>
+</html>

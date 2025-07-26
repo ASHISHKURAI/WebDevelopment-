@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Variables </title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+
+        h2{ 
+            color :red;
+            border-width: 4px;
+            border-style: solid;
+        }
+        p{
+            color:blue;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <!-- JavaScript DataTypes -->
+
+    <h2> JavaScript DataTypes</h2>
+    <p> Declaring data types for the variable like for constant and string </p>
+    <p id="demo"> </p>
+    <script>
+        const pi=3.14;
+        let person ="Ashish";
+        let answer = "yes i'm in ";
+
+        document.getElementById("demo").innerHTML= pi + "<br>" +person + "<br>" + answer ;
+    </script>
+
+    <!-- One statement Many Variables -->
+     <h2> JavaScript variables </h2>
+     <p> we can also put the all the variables in the single line </p>
+     <p id="demo1"></p>
+     <script>
+        let man="aashish", carname="volvo", price="2cr"
+        document.getElementById("demo1").innerHTML =carname;
+     </script>
+
+     <!-- Note -->
+
+     <h2> Note </h2>
+     <p> If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.</p>
+     <p id="demo2"> </p>
+     <script>
+        let x=2+3+"5";
+        document.getElementById("demo2").innerHTML=x;
+     </script>
+
+     <!-- JavaScript Doller Sign-->
+      <h2> Using Doller Sign </h2>
+      <p> The dollar sign is treated as a letter in JavaScript names </p>
+      <p id="demo3"> </p>
+      <script>
+
+        let $$$ =3;
+        let $mymoney=5;
+        document.getElementById("demo3").innerHTML= $$$ + $mymoney;
+
+    
+      </script>
+      <!-- JavaScript Underscore-->
+       <h2> Using JavaScript Underscore </h2>
+       <p> The underscore is treated as a letter in JavaScript names</p>
+       <p id="demo4"></p>
+       <script>
+        let _x=2;
+        let _100  =5;
+        document.getElementById("demo4").innerHTML= _x + _100 ;
+        
+       </script>
+
+
+
+    
+</body>
+</html>

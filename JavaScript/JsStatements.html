@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Statements </title>
+</head>
+<body>
+    <h2>JavaScript Statements</h2>
+
+<p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
+<p id="demo"></p>
+
+<script>
+let x, y, z;  // Statement 1
+x = 5;        // Statement 2
+y = 6;        // Statement 3
+z = x + y;    // Statement 4
+
+document.getElementById("demo").innerHTML = z; 
+</script>
+    
+ 
+<p>In HTML, JavaScript statements are executed by the browser.</p>
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello Dolly.";
+</script>
+
+<!-- uses of semicolons ;-->
+<p> semicolons seperate javascript statements </p>
+<p id="demo1"></p>
+ <script>
+    let a, b, c;
+a = 5;
+b = 6;
+c = a + b;
+    document.getElementById("demo1").innerHTML=c;
+ </script>
+
+ <h3> When separated by semicolons, multiple statements on one line are allowed:</h3>
+ <p id="demo2"></p>
+ <script>
+    let p, q, r;
+p= 5; q= 6; r = p + q;
+document.getElementById("demo2").innerHTML = c;
+ </script>
+
+ <!-- java script with line length and line break -->
+
+ <p>
+    The best place to break a code line is after an operator or a comma.
+    </p>
+    
+    <p id="demo3"></p>
+    
+    <script>
+    document.getElementById("demo3").innerHTML =
+    "Hello Dolly!";
+    </script>
+    <!-- java script keyword -->
+     <h3> JavaScript statements often start with a keyword to identify the JavaScript action to be performed.</h3>
+     <p> Keyword |	Description
+        <br/><br/>
+        var -	Declares a variable
+        <br/><br/>
+        let -	Declares a block variable
+        <br/><br/>
+        const -	Declares a block constant
+        <br/><br/>
+        if -	Marks a block of statements to be executed on a condition
+        <br/><br/>
+        switch -	Marks a block of statements to be executed in different cases
+        <br/><br/>
+        for -	Marks a block of statements to be executed in a loop
+        <br/><br/>
+        function -	Declares a function
+        <br/><br/>
+        return -	Exits a function
+        <br/><br/>
+        try	 -Implements error handling to a block of statements</p>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JavaScript for off </title>
+</head>
+<body>
+
+    <!-- JavaScript for off -->
+     <h2> Using for off in JavaScript </h2>
+     <p id="demo"></p>
+     <!-- variable - For every iteration the value of the next property is assigned to the variable. 
+      Variable can be declared with const, let, or var -->
+      <script>
+        const cars = ["scarpio","volvo","bmw"];
+        let text="";
+        for (let x of cars ) {
+            text += x+ "<br>";
+
+        }
+        document.getElementById("demo").innerHTML =text;
+      </script>
+    
+</body>
+</html>
